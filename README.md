@@ -185,4 +185,4 @@ Then run the manual checklist in [tests/MANUAL_QA.md](tests/MANUAL_QA.md).
 
 ## License
 
-This repository is currently marked `UNLICENSED` in [package.json](package.json). Add a license before publishing the project as open source.
+Copyright (c) 2026 Bhanu Prakash. All rights reserved.
