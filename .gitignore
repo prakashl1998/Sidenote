@@ -1,0 +1,10 @@
+node_modules/
+.output/
+.wxt/
+coverage/
+playwright-report/
+test-results/
+*.log
+.DS_Store
+BUILD_PLAN.md
+BUILD_PLAN_PIVOT.md

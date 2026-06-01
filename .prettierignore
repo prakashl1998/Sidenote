@@ -1,0 +1,7 @@
+BUILD_PLAN.md
+node_modules/
+.output/
+.wxt/
+coverage/
+playwright-report/
+test-results/

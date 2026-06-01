@@ -1,0 +1,39 @@
+{
+  "name": "sidenote",
+  "version": "0.0.0",
+  "description": "Highlight-to-clarify side notes for ChatGPT.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "wxt build",
+    "dev": "wxt",
+    "format": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint": "wxt prepare && eslint .",
+    "prepare:wxt": "wxt prepare",
+    "test": "vitest run",
+    "test:e2e": "npm run build && playwright test",
+    "typecheck": "wxt prepare && tsc --noEmit",
+    "verify": "npm run lint && npm run typecheck && npm run test && npm run build",
+    "verify:phase0": "npm run verify && npm run test:e2e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.60.0",
+    "@vitest/coverage-v8": "^4.1.7",
+    "eslint": "^10.4.1",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.60.0",
+    "vitest": "^4.1.7",
+    "wxt": "^0.20.26"
+  },
+  "dependencies": {
+    "dom-anchor-text-position": "^5.0.0",
+    "dom-anchor-text-quote": "^4.0.2"
+  }
+}
